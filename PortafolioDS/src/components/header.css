@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Righteous&display=swap');
+
+.header{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+
+.container-img{
+    height: 90%;
+    color: red;
+    display: flex;
+    align-items: center;
+    font-family: "Righteous";   
+    font-size: 45px;
+}
+
+.lista{
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+    font-family: "Lexend";
+}
+
