@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-rojo: #b11e21;
+    --color-gris1: #1e2326;
+}
+
+.seccion-principal{
+    background-image: url(../img/fondoInicio.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.contenidoB{
+    padding: 20px;
+    padding-top: 0;
+    max-width: 450px;
+    max-height: 700px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.ContenedorImg{
+    display: flex;
+    justify-content: center;
+}
+
+.ContenedorImg img{
+    border: solid 5px var(--color-rojo);
+    display: block;
+    width: 70%;
+    border-radius: 50%;
+}
+
+h1{
+    margin-top: 40px;
+    font-family: "Righteous";
+    font-size: 3.75rem;
+    
+}
+h2{
+    font-weight: normal;
+    font-size: 1.125rem;
+    font-family: "Work Sans";
+}

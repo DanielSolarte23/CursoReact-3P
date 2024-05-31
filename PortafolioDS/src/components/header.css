@@ -1,27 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-rojo: #b11e21;
+    --color-gris1: #1e2326;
+}
+
 
 .header{
-    background-color: rgb(32, 32, 32);
+    position: fixed;
+    background-color: var(--color-gris1);
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    height: 12vh;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+
 }
 
 .container-img{
-    height: 90%;
-    color: red;
+    height: 100%;
+    color: var(--color-rojo);
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: "Righteous";   
-    font-size: 45px;
+    padding: 0;
+}
+
+.container-img h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
 }
 
 .lista{
     display: flex;
     gap: 35px;
     font-size: 20px;
-    font-family: "Lexend";
+    font-family: "Work Sans";
 }
 

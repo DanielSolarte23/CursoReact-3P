@@ -4,7 +4,7 @@ function Header(){
     return(
     <header  className="header">
         <section className="container-img">
-            <h1>Daniel Solarte</h1>
+            <h1>Daniel</h1>
         </section>
 
         <ul className="lista">
